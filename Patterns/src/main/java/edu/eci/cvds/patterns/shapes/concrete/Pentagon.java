@@ -1,10 +1,10 @@
 package edu.eci.cvds.patterns.shapes.concrete;
 
-import edu.eci.cvds.patterns.shapes.Shape;
+import edu.eci.cvds.patterns.shapes.shapes;
 
-public class Square implements Shape {
+public class Pentagon implements shapes {
     @Override
     public int getNumberOfEdges() {
-        return 4;
+        return 5;
     }
 }

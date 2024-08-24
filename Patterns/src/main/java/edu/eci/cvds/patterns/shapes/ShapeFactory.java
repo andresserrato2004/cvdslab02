@@ -3,15 +3,16 @@ package edu.eci.cvds.patterns.shapes;
 import edu.eci.cvds.patterns.shapes.concrete.*;
 
 public class ShapeFactory {
-    public static Shape createShape(ShapeType type) {
+    public static shapes createShape(RegularShapesType type) {
         switch (type) {
-            case CIRCLE:
-                return new Circle();
-            case SQUARE:
-                return new Square();
-            case TRIANGLE:
+            case Pentagon:
+                return new Pentagon();
+            case Quadrilateral:
+                return new Quadrilateral();
+            case Triangle:
                 return new Triangle();
-            // Agrega más formas según sea necesario
+            case Hexagon:
+                return new Hexagon();
             default:
                 throw new IllegalArgumentException("Shape type not supported.");
         }
