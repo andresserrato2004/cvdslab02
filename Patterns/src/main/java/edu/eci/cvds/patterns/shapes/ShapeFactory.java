@@ -2,8 +2,8 @@ package edu.eci.cvds.patterns.shapes;
 
 import edu.eci.cvds.patterns.shapes.concrete.*;
 
-public class ShapeFactory {
-    public static shapes createShape(RegularShapesType type) {
+public class ShapeFactory implements ShapeFactoryMethod {
+    public static Shape create(RegularShapesType type) {
         switch (type) {
             case Pentagon:
                 return new Pentagon();
@@ -18,4 +18,3 @@ public class ShapeFactory {
         }
     }
 }
-
