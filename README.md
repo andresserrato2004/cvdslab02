@@ -34,26 +34,26 @@ El Repositorio Central de Maven es una colección pública de artefactos, donde 
 
 ## instalacion Maven
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 #### paramentros del proyecto
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 #### Archivos y directorios creados 
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 #### cambio de version en java 8
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 ### COMPILAR Y EJECUTAR
 
 #### compilacion del codigo
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ### ejecutando `App.java`
 
@@ -63,11 +63,11 @@ El Repositorio Central de Maven es una colección pública de artefactos, donde 
 
 ##### hello zayra
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 #### ejecutando con parametro nombre y apellido 
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 El parametro **package**  en Maven se usa para construir y empaquetar el proyecto en un formato específico, como un JAR o un WAR. Este comando ejecuta todas las fases del ciclo de vida de compilación de Maven, hasta la fase de **"package"**, lo que incluye la validación, compilación y creación del paquete del proyecto.
 
@@ -88,26 +88,26 @@ Se utiliza en sistemas grandes y complejos con múltiples patrones creacionales.
 ###  ¿Cuál es mejor?
 Optamos por utilizar el Simple Factory debido a su simplicidad, ya que el problema no demanda una solución más compleja. Con un simple `switch case`, podemos determinar los requerimientos de cada figura de manera eficiente y directa.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 
 ### Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
 
  **Sin parametros**
 
-+ ![alt text](image-10.png)
++ ![alt text](images/image-10.png)
 
 **Parámetro: qwerty**
 
-- ![alt text](image-11.png)
+- ![alt text](images/image-11.png)
 
 **Parámetro: pentagon**
 
-- ![alt text](image-12.png)
+- ![alt text](images/image-12.png)
 
 **Parámetro: Hexagon**
 
-- ![alt text](image-13.png)
+- ![alt text](images/image-13.png)
 
 
 #### ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
