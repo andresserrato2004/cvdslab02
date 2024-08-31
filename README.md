@@ -64,3 +64,15 @@ Además de **"package"**, se pueden utilizar otros parámetros en el comando mvn
 - clean: Elimina los archivos generados por compilaciones anteriores.
 - install: Construye el proyecto y lo instala en el repositorio local de Maven.
 - deploy: Copia el paquete final a un repositorio remoto para compartirlo con otros desarrolladores.
+
+### ¿Cuál fábrica hiciste?
+El metodo factory permite delegar la creación de objetos a subclases, liberando al desarrollador de la necesidad de conocer cómo se compone internamente un objeto específico. Este patrón es útil cuando una clase no puede anticipar qué tipo de objeto debe crear, permitiendo que las subclases especifiquen los objetos necesarios.
+
+Es útil cuando una clase no puede determinar el tipo de objeto a crear.
+Se utiliza en sistemas grandes y complejos con múltiples patrones creacionales.
+
+###  ¿Cuál es mejor?
+Optamos por utilizar el Simple Factory debido a su simplicidad, ya que el problema no demanda una solución más compleja. Con un simple `switch case`, podemos determinar los requerimientos de cada figura de manera eficiente y directa.
+
+![alt text](image-5.png)
+
