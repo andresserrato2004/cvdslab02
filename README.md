@@ -55,6 +55,20 @@ El Repositorio Central de Maven es una colección pública de artefactos, donde 
 
 ![alt text](image-4.png)
 
+### ejecutando `App.java`
+
+
+###### hello world
+![alt text](image-7.png)
+
+##### hello zayra
+
+![alt text](image-8.png)
+
+#### ejecutando con parametro nombre y apellido 
+
+![alt text](image-9.png)
+
 El parametro **package**  en Maven se usa para construir y empaquetar el proyecto en un formato específico, como un JAR o un WAR. Este comando ejecuta todas las fases del ciclo de vida de compilación de Maven, hasta la fase de **"package"**, lo que incluye la validación, compilación y creación del paquete del proyecto.
 
 Además de **"package"**, se pueden utilizar otros parámetros en el comando mvn para realizar diferentes tareas. Algunos de los más comunes son:
@@ -76,3 +90,27 @@ Optamos por utilizar el Simple Factory debido a su simplicidad, ya que el proble
 
 ![alt text](image-5.png)
 
+
+### Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
+
+ **Sin parametros**
+
++ ![alt text](image-10.png)
+
+**Parámetro: qwerty**
+
+- ![alt text](image-11.png)
+
+**Parámetro: pentagon**
+
+- ![alt text](image-12.png)
+
+**Parámetro: Hexagon**
+
+- ![alt text](image-13.png)
+
+
+#### ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+
+
+todas se ejecutan correctamente pues se tiene operacion para todas las posibles entradas 
