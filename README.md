@@ -113,4 +113,4 @@ Optamos por utilizar el Simple Factory debido a su simplicidad, ya que el proble
 #### ¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
 
 
-todas se ejecutan correctamente pues se tiene operacion para todas las posibles entradas 
+- Todas se ejecutan correctamente pues se tiene operación para todas las posibles entradas.
